@@ -1,0 +1,21 @@
+/**:
+  # ros__parameters:
+  #   frame_parent: "velodyne"
+  #   frame_child: "bno055"
+  #   tf_parent2child:
+  #     x: 0.0
+  #     y: 0.050
+  #     z: 0.0
+  #     roll_deg: 0.0
+  #     pitch_deg: 0.0
+  #     yaw_deg: 180.0   
+  ros__parameters:
+    frame_parent: "end_effector"
+    frame_child: "camera_link"
+    tf_parent2child:
+      t_x: 0.0
+      t_y: 0.00
+      t_z: 0.0
+      r_x_deg: 0.0
+      r_y_deg: 0.0
+      r_z_deg: 0.0 
